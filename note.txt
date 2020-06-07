@@ -1,0 +1,4 @@
+const animalLi = document.createElement('li');
+animalLi.dataset.id = animal.id
+animalLi.innerHTML = `<span>${animal.name} the ${animal.species}</span>`
+animals.appendChild(animalLi);
